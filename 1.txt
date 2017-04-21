@@ -3,4 +3,6 @@ public void createSumm(int a, int b) {
     return a+b;
 }
 
-public void CreateDelete();
+public void CreateMult(int a, int b) {
+ return a*b;
+ }
