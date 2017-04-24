@@ -10,4 +10,7 @@ public void CreateMult(int a, int b) {
 public void CreateDiv(int a, int b) {
  return a/b;
  }
-
+ 
+ public void Random(int a, int b, int c) {
+ return a+b-c;
+ }
