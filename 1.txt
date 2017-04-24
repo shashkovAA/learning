@@ -6,3 +6,8 @@ public void createSumm(int a, int b) {
 public void CreateMult(int a, int b) {
  return a*b;
  }
+
+public void CreateDiv(int a, int b) {
+ return a/b;
+ }
+
