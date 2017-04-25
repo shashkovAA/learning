@@ -19,3 +19,21 @@ git push -u  project1 master
 >git commit  -m "Meggase about changes!"
 
 >git checkout -- <имя файла> -откатить изменения в файле
+
+Пример начальной инициализации локального репозитория
+при его создании на GitHub
+
+$ echo "# Profit" >> README.md 	- создает Readme файл
+git add README.md		- добавляет его в индекс
+git commit -m "first commit"	- коммитит его
+git remote add origin https://github.com/shashkovAA/Profit.git - добавляет привязку к удаленному репозиторию
+git push -u origin master - проталкивает на удаленный репозиторий, то что было закоммитино.
+
+>git log --pretty=format:<string>, где string может содержать например "%h - %an (%ar)  %s"
+git log --pretty=format:"%h - %an (%ar)  %s"
+
+>git checkout -b <name> - создание новой ветки и переход в нее
+>git branch -v - просмотр веток
+>git branch <name> - создание ветки
+>git checkout <name> - переключение на ветку
+>git branch -D <name> - удаление ветки
