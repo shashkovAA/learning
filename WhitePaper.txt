@@ -13,3 +13,9 @@ project1 https://github.com/shashkovAA/learning.git (push)
 > git push -u (ключ для запоминания что и куда при команде Push) <alias> <имя ветки>
 git push -u  project1 master
 Далее можно использовать просто : git push
+
+>git add <имя файла> || .(все файлы) || <regex> - индексация файлов на изменения, которые будут подтверждены commit-ом
+
+>git commit  -m "Meggase about changes!"
+
+>git checkout -- <имя файла> -откатить изменения в файле
