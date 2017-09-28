@@ -44,3 +44,10 @@ git push --set-upstream origin new_branch   # Push the new branch, set local bra
 
 $ git checkout master - перекллючение на ветку master
 $ git merge hotfix - слияния dtnrb hotfix с Master
+
+
+Игнорирование файлов/папок
+1. Создать в корне файл .gitignore  и  вписать в него что не контролировать, например logs/
+2. Если папка уже была в индексе, то 
+#git rm -r -f --cached logs/
+
